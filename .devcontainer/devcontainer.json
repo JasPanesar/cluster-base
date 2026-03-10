@@ -1,9 +1,9 @@
 {
-  "name": "generacy-cluster",
+  "name": "cluster-base",
   "dockerComposeFile": "docker-compose.yml",
   "service": "orchestrator",
   "runServices": ["orchestrator", "redis"],
-  "workspaceFolder": "/workspaces/project",
+  "workspaceFolder": "/workspaces/cluster-base",
   "shutdownAction": "none",
   "overrideCommand": false,
 
