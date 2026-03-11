@@ -1,0 +1,17 @@
+# Generacy project configuration
+# Docs: https://github.com/generacy-ai/cluster-base
+
+project:
+  name: "cluster-base"
+
+repos:
+  primary: "JasPanesar/cluster-base"
+  dev:
+    # Add repos for active development (owner/repo format):
+    # - JasPanesar/another-repo
+  clone:
+    # Add repos to clone as read-only reference:
+    # - JasPanesar/docs
+
+defaults:
+  baseBranch: develop
